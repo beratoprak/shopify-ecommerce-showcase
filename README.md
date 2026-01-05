@@ -40,6 +40,13 @@ private tutulmaktadır.
 - UX-focused animations
 
 ---
+## 📸 Screenshots
+
+### Modern Category Cards – Closed State
+![Category Cards UI](https://github.com/beratoprak/shopify-ecommerce-showcase/blob/main/sections/IMAGE%202026-01-06%2000:16:00.jpg?raw=true)
+
+### Modern Category Cards – Expanded State
+![Expanded Category Cards UI](https://github.com/beratoprak/shopify-ecommerce-showcase/blob/main/sections/IMAGE%202026-01-06%2000:16:07.jpg?raw=true)
 
 ## ⚠️ Not
 
