@@ -1,35 +1,48 @@
-# Shopify E-Commerce (Showcase)
+# Shopify E-Commerce UI (Showcase)
 
-Shopify üzerinde geliştirilen, özel **Liquid section ve snippet**’lar içeren
-bir e-ticaret sitesi çalışmasının vitrin (showcase) reposudur.
+Bu repo, Shopify üzerinde geliştirilen özel bir e-ticaret sitesinde
+kullanılan **modern kategori kartları** bileşeninin vitrin (showcase)
+amaçlı paylaşımıdır.
 
-Bu repo, gerçek bir satış sitesinde kullanılan yapıların
-**güvenli ve sadeleştirilmiş örneklerini** sunar.
-
-> ⚠️ Gerçek mağaza ve müşteri bilgileri gizli tutulmuştur.
-
----
-
-## Ne Yapıldı?
-- Özel Liquid section geliştirme
-- Tema bazlı vitrin ve kategori yapıları
-- Ürün, koleksiyon ve banner odaklı bileşenler
-- Frontend özelleştirmeleri (UX odaklı)
+Gerçek proje; ticari, müşteri gizliliği ve güvenlik nedenleriyle
+private tutulmaktadır.
 
 ---
 
-## Kullanım Senaryosu
-Bu yapı, Shopify tabanlı bir e-ticaret sitesinde:
-- ana sayfa vitrin düzeni
-- koleksiyon yönlendirmeleri
-- görsel odaklı satış alanları
+## 🎯 Bu Bileşen Ne Yapar?
 
-oluşturmak için kullanılmıştır.
+- Kategori kartlarını **tek satır modern grid** yapısında gösterir
+- Her kart içinde **alt kategori açılır/kapanır**
+- Hover, transition ve mikro animasyonlar içerir
+- Mobil, tablet ve desktop için **responsive** tasarlanmıştır
+- Shopify **Liquid + CSS + Vanilla JS** ile yazılmıştır
 
 ---
 
-## Demo Code (Safe)
-Bu repoda yer alan demo kodlar:
-- Gerçek projeden esinlenmiştir
-- Müşteri adı, domain ve satış verileri çıkarılmıştır
-- Liquid mimarisini ve section/snippet mantığını göstermeyi amaçlar
+## 🧩 Demo Code (Safe)
+
+> Gerçek projeden esinlenilmiş, güvenli vitrin kodu
+
+- `sections/modern-category-cards.liquid`
+  - Kategori kartları
+  - Açılır alt kategori sistemi
+  - Hover & animasyonlar
+  - Vanilla JS toggle logic
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- Shopify Liquid
+- HTML / CSS
+- Vanilla JavaScript
+- Responsive Grid
+- UX-focused animations
+
+---
+
+## ⚠️ Not
+
+Bu repo **çalışır bir Shopify teması değildir**.  
+Ama kod mantığını, component yapısını ve UI yaklaşımını
+net şekilde göstermeyi amaçlar.
